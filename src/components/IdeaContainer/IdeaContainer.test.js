@@ -11,7 +11,7 @@ describe('IdeaContainer', () => {
     wrapper = shallow(<IdeaContainer ideas={[]} removeIdea={removeIdeaMock} />)
   })
 
-  it('matches the spshot', () => {
+  it('matches the snapshot', () => {
     expect(wrapper).toMatchSnapshot()
   })
 })
