@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import IdeaContainer from './IdeaContainer';
+import IdeaContainer from '../IdeaContainer/IdeaContainer';
 import { shallow, mount, render } from 'enzyme';
 
 describe('App', () => {
@@ -32,7 +32,7 @@ describe('App', () => {
       wrapper.setState({ ideas: initialState })
 
       wrapper.instance().removeIdea(2)
-      
+
       expect(wrapper.state('ideas')).toEqual(expected)
     })
   })

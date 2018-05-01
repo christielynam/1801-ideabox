@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Card/Card'
 import PropTypes from 'prop-types'
 
 const IdeaContainer = ({ ideas, removeIdea }) => {
