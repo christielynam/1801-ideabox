@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Card from './Card';
+import Card from './index';
 import { shallow, mount, render } from 'enzyme';
 
 describe('Card', () => {

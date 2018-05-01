@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
-import IdeaContainer from '../IdeaContainer/IdeaContainer';
+import App from './index';
+import IdeaContainer from '../IdeaContainer';
 import { shallow, mount, render } from 'enzyme';
 
 describe('App', () => {

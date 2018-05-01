@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
-import IdeaForm from '../IdeaForm/IdeaForm'
-import IdeaContainer from '../IdeaContainer/IdeaContainer'
+import IdeaForm from '../IdeaForm'
+import IdeaContainer from '../IdeaContainer'
 
 class App extends Component {
   constructor(props) {

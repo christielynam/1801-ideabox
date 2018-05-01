@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import IdeaForm from '../IdeaForm/IdeaForm';
+import IdeaForm from '../IdeaForm';
 import { shallow, mount, render } from 'enzyme';
 
 describe('IdeaForm', () => {
