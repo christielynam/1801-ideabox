@@ -16,7 +16,7 @@ class IdeaForm extends Component {
   }
 
   handleSubmit = (event) => {
-    event.preventDefault()
+    // event.preventDefault()
     this.props.addIdea(this.state)
   }
 
