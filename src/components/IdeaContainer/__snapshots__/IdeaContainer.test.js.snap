@@ -5,7 +5,20 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <IdeaContainer
-    ideas={Array []}
+    ideas={
+        Array [
+            Object {
+              "body": "yall",
+              "id": 3,
+              "title": "hey",
+            },
+            Object {
+              "body": "eagle",
+              "id": 5,
+              "title": "war",
+            },
+          ]
+    }
     removeIdea={[Function]}
 />,
   Symbol(enzyme.__renderer__): Object {
@@ -20,10 +33,52 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": Array [],
+      "children": Array [
+        <Card
+          body="yall"
+          id={3}
+          removeIdea={[Function]}
+          title="hey"
+/>,
+        <Card
+          body="eagle"
+          id={5}
+          removeIdea={[Function]}
+          title="war"
+/>,
+      ],
     },
     "ref": null,
-    "rendered": Array [],
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "body": "yall",
+          "id": 3,
+          "removeIdea": [Function],
+          "title": "hey",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "function",
+        "props": Object {
+          "body": "eagle",
+          "id": 5,
+          "removeIdea": [Function],
+          "title": "war",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -32,10 +87,52 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [],
+        "children": Array [
+          <Card
+            body="yall"
+            id={3}
+            removeIdea={[Function]}
+            title="hey"
+/>,
+          <Card
+            body="eagle"
+            id={5}
+            removeIdea={[Function]}
+            title="war"
+/>,
+        ],
       },
       "ref": null,
-      "rendered": Array [],
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "body": "yall",
+            "id": 3,
+            "removeIdea": [Function],
+            "title": "hey",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "function",
+          "props": Object {
+            "body": "eagle",
+            "id": 5,
+            "removeIdea": [Function],
+            "title": "war",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
       "type": "div",
     },
   ],
