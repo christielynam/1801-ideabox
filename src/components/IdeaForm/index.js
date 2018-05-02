@@ -25,6 +25,7 @@ class IdeaForm extends Component {
       <form onSubmit={this.handleSubmit}>
         <input
           type='text'
+          className='title-input'
           placeholder='title'
           onChange={this.handleInputChange}
           value={this.state.title}
@@ -32,6 +33,7 @@ class IdeaForm extends Component {
         />
         <input
           type='text'
+          className='body-input'
           placeholder='body'
           onChange={this.handleInputChange}
           value={this.state.body}
