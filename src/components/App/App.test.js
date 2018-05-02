@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './index';
 import IdeaContainer from '../IdeaContainer';
-import { shallow, mount, render } from 'enzyme';
+import { shallow } from 'enzyme';
 
 describe('App', () => {
   let wrapper;

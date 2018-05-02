@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Card from './index';
-import { shallow, mount, render } from 'enzyme';
+import { shallow } from 'enzyme';
 
 describe('Card', () => {
   let wrapper;
@@ -11,17 +11,16 @@ describe('Card', () => {
   beforeEach(() => {
     removeIdeaMock = jest.fn()
     expectedId = 2
-
     wrapper = shallow(<Card title='title' body='body' id={expectedId} removeIdea={removeIdeaMock} />)
   })
 
   it('matches the snapshot', () => {
-
     expect(wrapper).toMatchSnapshot()
   })
 
   it('calls removeIdea with the correct id', () => {
     const button = wrapper.find('button')
+
     button.simulate('click')
 
     expect(removeIdeaMock).toHaveBeenCalledWith(expectedId)
