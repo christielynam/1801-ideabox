@@ -8,7 +8,8 @@ describe('IdeaForm', () => {
 
   beforeEach(() => {
     const addIdeaMock = jest.fn()
-    wrapper = shallow(<IdeaForm addIdea={addIdeaMock} />)
+
+    wrapper = mount(<IdeaForm addIdea={addIdeaMock} />)
   })
 
   it('matches the sanpshot', () => {
@@ -16,9 +17,8 @@ describe('IdeaForm', () => {
   })
 
   it('calls setState when title is changed', () => {
-
     const spy = spyOn(wrapper.instance(), 'setState')
-    const mockEvent = { target: { value: 'something'} }
+    const mockEvent = { target: { value: 'something' } }
 
     wrapper.find('.title-input').simulate('change', mockEvent)
 
@@ -27,7 +27,7 @@ describe('IdeaForm', () => {
 
   it('calls setState when body is changed', () => {
     const spy = spyOn(wrapper.instance(), 'setState')
-    const mockEvent = { target: { value: 'something'}}
+    const mockEvent = { target: { value: 'something'} }
 
     wrapper.find('.body-input').simulate('change', mockEvent)
 
@@ -35,20 +35,31 @@ describe('IdeaForm', () => {
   })
 
   it('updates state when handleInputChange is called', () => {
-    const mockEvent = { target: { name:
-      'title', value: 'something'} }
+    const mockEvent = { target: { name: 'title', value: 'something' } }
 
     wrapper.instance().handleInputChange(mockEvent)
 
-    expect(wrapper.state()['title']).toBe('something')
+    expect(wrapper.state('title')).toBe('something')
+  })
+
+  it('should call handleSubmit onSubmit of the form', () => {
+    const spy = spyOn(wrapper.instance(), 'handleSubmit');
+    const mockEvent = { preventDefault: jest.fn() }
+
+    wrapper.instance().forceUpdate();
+    wrapper.find('form').simulate('submit', mockEvent)
+
+    expect(spy).toHaveBeenCalled()
   })
 
   it('should call addIdea onSubmit of the form', () => {
-    console.log(wrapper.props('addIdea'));
-    const spy = spyOn(wrapper.props(), 'addIdea')
+    const spy = spyOn(wrapper.props(), 'addIdea');
     const mockEvent = { preventDefault: jest.fn() }
+    // const addIdeaMock = jest.fn()
 
+    wrapper.instance().forceUpdate();
     wrapper.find('form').simulate('submit', mockEvent)
+    // wrapper.instance().handleSubmit(mockEvent)
 
     expect(spy).toHaveBeenCalled()
   })

@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`IdeaForm matches the sanpshot 1`] = `
-ShallowWrapper {
+ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <IdeaForm
     addIdea={[Function]}
 />,
@@ -14,85 +13,824 @@ ShallowWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": null,
-    "key": undefined,
-    "nodeType": "host",
-    "props": Object {
-      "children": Array [
-        <input
-          className="title-input"
-          name="title"
-          onChange={[Function]}
-          placeholder="title"
-          type="text"
-          value=""
+    "instance": IdeaForm {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 5,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <form>
+                                    <input
+                                                      type="text"
+                                                      class="title-input"
+                                                      placeholder="title"
+                                                      name="title"
+                                                      value=""
+                                    />
+                                    <input
+                                                      type="text"
+                                                      class="body-input"
+                                                      placeholder="body"
+                                                      name="body"
+                                                      value=""
+                                    />
+                                    <button>
+                                                      Submit
+                                    </button>
+                  </form>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addIdea": [Function],
+                                                                }
+                      }
 />,
-        <input
-          className="body-input"
-          name="body"
-          onChange={[Function]}
-          placeholder="body"
-          type="text"
-          value=""
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addIdea": [Function],
+                                                                }
+                      }
 />,
-        <button>
-          Submit
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "addIdea": [Function],
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <form>
+                                <input
+                                                type="text"
+                                                class="title-input"
+                                                placeholder="title"
+                                                name="title"
+                                                value=""
+                                />
+                                <input
+                                                type="text"
+                                                class="body-input"
+                                                placeholder="body"
+                                                name="body"
+                                                value=""
+                                />
+                                <button>
+                                                Submit
+                                </button>
+                </form>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addIdea": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_debugSource": null,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 6,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": Object {
+            "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+            "lineNumber": 25,
+          },
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+              "lineNumber": 26,
+            },
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "className": "title-input",
+              "name": "title",
+              "onChange": [Function],
+              "placeholder": "title",
+              "type": "text",
+              "value": "",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "className": "title-input",
+              "name": "title",
+              "onChange": [Function],
+              "placeholder": "title",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+                "lineNumber": 34,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "className": "body-input",
+                "name": "body",
+                "onChange": [Function],
+                "placeholder": "body",
+                "type": "text",
+                "value": "",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "className": "body-input",
+                "name": "body",
+                "onChange": [Function],
+                "placeholder": "body",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+                  "lineNumber": 42,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "Submit",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "Submit",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": null,
+                "stateNode": <button>
+                  Submit
 </button>,
-      ],
-      "onSubmit": [Function],
+                "tag": 5,
+                "type": "button",
+                "updateQueue": null,
+              },
+              "stateNode": <input
+                type="text"
+                class="body-input"
+                placeholder="body"
+                name="body"
+                value=""
+/>,
+              "tag": 5,
+              "type": "input",
+              "updateQueue": null,
+            },
+            "stateNode": <input
+              type="text"
+              class="title-input"
+              placeholder="title"
+              name="title"
+              value=""
+/>,
+            "tag": 5,
+            "type": "input",
+            "updateQueue": null,
+          },
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              <input
+                className="title-input"
+                name="title"
+                onChange={[Function]}
+                placeholder="title"
+                type="text"
+                value=""
+/>,
+              <input
+                className="body-input"
+                name="body"
+                onChange={[Function]}
+                placeholder="body"
+                type="text"
+                value=""
+/>,
+              <button>
+                Submit
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              <input
+                className="title-input"
+                name="title"
+                onChange={[Function]}
+                placeholder="title"
+                type="text"
+                value=""
+/>,
+              <input
+                className="body-input"
+                name="body"
+                onChange={[Function]}
+                placeholder="body"
+                type="text"
+                value=""
+/>,
+              <button>
+                Submit
+</button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "return": [Circular],
+          "sibling": null,
+          "stateNode": <form>
+            <input
+                        type="text"
+                        class="title-input"
+                        placeholder="title"
+                        name="title"
+                        value=""
+            />
+            <input
+                        type="text"
+                        class="body-input"
+                        placeholder="body"
+                        name="body"
+                        value=""
+            />
+            <button>
+                        Submit
+            </button>
+</form>,
+          "tag": 5,
+          "type": "form",
+          "updateQueue": null,
+        },
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "addIdea": [Function],
+        },
+        "memoizedState": Object {
+          "body": "",
+          "title": "",
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "addIdea": [Function],
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 4,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "alternate": null,
+          "child": [Circular],
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "addIdea": [Function],
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 1,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": [Circular],
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <form>
+                                    <input
+                                                      type="text"
+                                                      class="title-input"
+                                                      placeholder="title"
+                                                      name="title"
+                                                      value=""
+                                    />
+                                    <input
+                                                      type="text"
+                                                      class="body-input"
+                                                      placeholder="body"
+                                                      name="body"
+                                                      value=""
+                                    />
+                                    <button>
+                                                      Submit
+                                    </button>
+                  </form>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 1,
+                "first": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addIdea": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                },
+                "hasForceUpdate": false,
+                "isInitialized": false,
+                "isProcessing": false,
+                "last": Object {
+                  "callback": null,
+                  "capturedValue": null,
+                  "expirationTime": 1,
+                  "isForced": false,
+                  "isReplace": false,
+                  "next": null,
+                  "partialState": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                                            Object {
+                                                                  "addIdea": [Function],
+                                                                }
+                      }
+/>,
+                  },
+                },
+              },
+            },
+            "child": [Circular],
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                                Object {
+                                                "addIdea": [Function],
+                                              }
+                }
+/>,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <form>
+                                <input
+                                                type="text"
+                                                class="title-input"
+                                                placeholder="title"
+                                                name="title"
+                                                value=""
+                                />
+                                <input
+                                                type="text"
+                                                class="body-input"
+                                                placeholder="body"
+                                                name="body"
+                                                value=""
+                                />
+                                <button>
+                                                Submit
+                                </button>
+                </form>
+</div>,
+              "context": Object {},
+              "current": [Circular],
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "remainingExpirationTime": 0,
+            },
+            "tag": 3,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addIdea": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "callbackList": null,
+              "capturedValues": null,
+              "expirationTime": 0,
+              "first": null,
+              "hasForceUpdate": false,
+              "isInitialized": true,
+              "isProcessing": false,
+              "last": null,
+            },
+          },
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "handleInputChange": [Function],
+      "props": Object {
+        "addIdea": [Function],
+      },
+      "refs": Object {},
+      "state": Object {
+        "body": "",
+        "title": "",
+      },
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "addIdea": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "title-input",
-          "name": "title",
-          "onChange": [Function],
-          "placeholder": "title",
-          "type": "text",
-          "value": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "input",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "className": "body-input",
-          "name": "body",
-          "onChange": [Function],
-          "placeholder": "body",
-          "type": "text",
-          "value": "",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "input",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Submit",
-        },
-        "ref": null,
-        "rendered": "Submit",
-        "type": "button",
-      },
-    ],
-    "type": "form",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": null,
+    "rendered": Object {
+      "instance": <form>
+        <input
+                type="text"
+                class="title-input"
+                placeholder="title"
+                name="title"
+                value=""
+        />
+        <input
+                type="text"
+                class="body-input"
+                placeholder="body"
+                name="body"
+                value=""
+        />
+        <button>
+                Submit
+        </button>
+</form>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
@@ -122,7 +860,13 @@ ShallowWrapper {
       "ref": null,
       "rendered": Array [
         Object {
-          "instance": null,
+          "instance": <input
+            type="text"
+            class="title-input"
+            placeholder="title"
+            name="title"
+            value=""
+/>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
@@ -134,11 +878,19 @@ ShallowWrapper {
             "value": "",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+          ],
           "type": "input",
         },
         Object {
-          "instance": null,
+          "instance": <input
+            type="text"
+            class="body-input"
+            placeholder="body"
+            name="body"
+            value=""
+/>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
@@ -150,22 +902,944 @@ ShallowWrapper {
             "value": "",
           },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            undefined,
+          ],
           "type": "input",
         },
         Object {
-          "instance": null,
+          "instance": <button>
+            Submit
+</button>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": "Submit",
           },
           "ref": null,
-          "rendered": "Submit",
+          "rendered": Array [
+            "Submit",
+          ],
           "type": "button",
         },
       ],
       "type": "form",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": IdeaForm {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 5,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <form>
+                                        <input
+                                                            type="text"
+                                                            class="title-input"
+                                                            placeholder="title"
+                                                            name="title"
+                                                            value=""
+                                        />
+                                        <input
+                                                            type="text"
+                                                            class="body-input"
+                                                            placeholder="body"
+                                                            name="body"
+                                                            value=""
+                                        />
+                                        <button>
+                                                            Submit
+                                        </button>
+                    </form>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addIdea": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addIdea": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addIdea": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <form>
+                                    <input
+                                                      type="text"
+                                                      class="title-input"
+                                                      placeholder="title"
+                                                      name="title"
+                                                      value=""
+                                    />
+                                    <input
+                                                      type="text"
+                                                      class="body-input"
+                                                      placeholder="body"
+                                                      name="body"
+                                                      value=""
+                                    />
+                                    <button>
+                                                      Submit
+                                    </button>
+                  </form>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "addIdea": [Function],
+                                                          }
+                    }
+/>,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "addIdea": [Function],
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "addIdea": [Function],
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 6,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": Object {
+              "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+              "lineNumber": 25,
+            },
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 7,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": Object {
+                "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+                "lineNumber": 26,
+              },
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "className": "title-input",
+                "name": "title",
+                "onChange": [Function],
+                "placeholder": "title",
+                "type": "text",
+                "value": "",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "className": "title-input",
+                "name": "title",
+                "onChange": [Function],
+                "placeholder": "title",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "return": [Circular],
+              "sibling": FiberNode {
+                "_debugID": 8,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": Object {
+                  "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+                  "lineNumber": 34,
+                },
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "className": "body-input",
+                  "name": "body",
+                  "onChange": [Function],
+                  "placeholder": "body",
+                  "type": "text",
+                  "value": "",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "className": "body-input",
+                  "name": "body",
+                  "onChange": [Function],
+                  "placeholder": "body",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "return": [Circular],
+                "sibling": FiberNode {
+                  "_debugID": 9,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": Object {
+                    "fileName": "/Users/christie/turing/staff/mod3/temp/1801-ideabox/src/components/IdeaForm/index.js",
+                    "lineNumber": 42,
+                  },
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "Submit",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "Submit",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "sibling": null,
+                  "stateNode": <button>
+                    Submit
+</button>,
+                  "tag": 5,
+                  "type": "button",
+                  "updateQueue": null,
+                },
+                "stateNode": <input
+                  type="text"
+                  class="body-input"
+                  placeholder="body"
+                  name="body"
+                  value=""
+/>,
+                "tag": 5,
+                "type": "input",
+                "updateQueue": null,
+              },
+              "stateNode": <input
+                type="text"
+                class="title-input"
+                placeholder="title"
+                name="title"
+                value=""
+/>,
+              "tag": 5,
+              "type": "input",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                <input
+                  className="title-input"
+                  name="title"
+                  onChange={[Function]}
+                  placeholder="title"
+                  type="text"
+                  value=""
+/>,
+                <input
+                  className="body-input"
+                  name="body"
+                  onChange={[Function]}
+                  placeholder="body"
+                  type="text"
+                  value=""
+/>,
+                <button>
+                  Submit
+</button>,
+              ],
+              "onSubmit": [Function],
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                <input
+                  className="title-input"
+                  name="title"
+                  onChange={[Function]}
+                  placeholder="title"
+                  type="text"
+                  value=""
+/>,
+                <input
+                  className="body-input"
+                  name="body"
+                  onChange={[Function]}
+                  placeholder="body"
+                  type="text"
+                  value=""
+/>,
+                <button>
+                  Submit
+</button>,
+              ],
+              "onSubmit": [Function],
+            },
+            "ref": null,
+            "return": [Circular],
+            "sibling": null,
+            "stateNode": <form>
+              <input
+                            type="text"
+                            class="title-input"
+                            placeholder="title"
+                            name="title"
+                            value=""
+              />
+              <input
+                            type="text"
+                            class="body-input"
+                            placeholder="body"
+                            name="body"
+                            value=""
+              />
+              <button>
+                            Submit
+              </button>
+</form>,
+            "tag": 5,
+            "type": "form",
+            "updateQueue": null,
+          },
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "addIdea": [Function],
+          },
+          "memoizedState": Object {
+            "body": "",
+            "title": "",
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "addIdea": [Function],
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 4,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "alternate": null,
+            "child": [Circular],
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "addIdea": [Function],
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 1,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "alternate": FiberNode {
+                "_debugID": 1,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "alternate": [Circular],
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <form>
+                                        <input
+                                                            type="text"
+                                                            class="title-input"
+                                                            placeholder="title"
+                                                            name="title"
+                                                            value=""
+                                        />
+                                        <input
+                                                            type="text"
+                                                            class="body-input"
+                                                            placeholder="body"
+                                                            name="body"
+                                                            value=""
+                                        />
+                                        <button>
+                                                            Submit
+                                        </button>
+                    </form>
+</div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "remainingExpirationTime": 0,
+                },
+                "tag": 3,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "callbackList": null,
+                  "capturedValues": null,
+                  "expirationTime": 1,
+                  "first": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addIdea": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                  "hasForceUpdate": false,
+                  "isInitialized": false,
+                  "isProcessing": false,
+                  "last": Object {
+                    "callback": null,
+                    "capturedValue": null,
+                    "expirationTime": 1,
+                    "isForced": false,
+                    "isReplace": false,
+                    "next": null,
+                    "partialState": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                                                Object {
+                                                                        "addIdea": [Function],
+                                                                      }
+                        }
+/>,
+                    },
+                  },
+                },
+              },
+              "child": [Circular],
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                                    Object {
+                                                      "addIdea": [Function],
+                                                    }
+                  }
+/>,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <form>
+                                    <input
+                                                      type="text"
+                                                      class="title-input"
+                                                      placeholder="title"
+                                                      name="title"
+                                                      value=""
+                                    />
+                                    <input
+                                                      type="text"
+                                                      class="body-input"
+                                                      placeholder="body"
+                                                      name="body"
+                                                      value=""
+                                    />
+                                    <button>
+                                                      Submit
+                                    </button>
+                  </form>
+</div>,
+                "context": Object {},
+                "current": [Circular],
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "remainingExpirationTime": 0,
+              },
+              "tag": 3,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                                        Object {
+                                                            "addIdea": [Function],
+                                                          }
+                    }
+/>,
+                },
+                "callbackList": null,
+                "capturedValues": null,
+                "expirationTime": 0,
+                "first": null,
+                "hasForceUpdate": false,
+                "isInitialized": true,
+                "isProcessing": false,
+                "last": null,
+              },
+            },
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "addIdea": [Function],
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "addIdea": [Function],
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "sibling": null,
+          "stateNode": [Circular],
+          "tag": 2,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "_reactInternalInstance": Object {},
+        "context": Object {},
+        "handleInputChange": [Function],
+        "props": Object {
+          "addIdea": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "body": "",
+          "title": "",
+        },
+        "updater": Object {
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+        },
+      },
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "addIdea": [Function],
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <form>
+          <input
+                    type="text"
+                    class="title-input"
+                    placeholder="title"
+                    name="title"
+                    value=""
+          />
+          <input
+                    type="text"
+                    class="body-input"
+                    placeholder="body"
+                    name="body"
+                    value=""
+          />
+          <button>
+                    Submit
+          </button>
+</form>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="title-input"
+              name="title"
+              onChange={[Function]}
+              placeholder="title"
+              type="text"
+              value=""
+/>,
+            <input
+              className="body-input"
+              name="body"
+              onChange={[Function]}
+              placeholder="body"
+              type="text"
+              value=""
+/>,
+            <button>
+              Submit
+</button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <input
+              type="text"
+              class="title-input"
+              placeholder="title"
+              name="title"
+              value=""
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "title-input",
+              "name": "title",
+              "onChange": [Function],
+              "placeholder": "title",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "input",
+          },
+          Object {
+            "instance": <input
+              type="text"
+              class="body-input"
+              placeholder="body"
+              name="body"
+              value=""
+/>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "body-input",
+              "name": "body",
+              "onChange": [Function],
+              "placeholder": "body",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "input",
+          },
+          Object {
+            "instance": <button>
+              Submit
+</button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Submit",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Submit",
+            ],
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

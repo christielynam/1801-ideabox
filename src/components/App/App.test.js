@@ -28,30 +28,17 @@ describe('App', () => {
     Date.now = jest.fn().mockImplementation(() => 5)
 
     wrapper.setState({ ideas: initialState })
-
     wrapper.instance().addIdea(mockIdea)
 
     expect(wrapper.state('ideas')).toEqual(expected)
     expect(wrapper.state('ideas').length).toEqual(1)
   })
 
-  // it('does not add a new idea if addIdea is not passed the correct params', () => {
-  //   const initialState = []
-  //   const invalidIdea = {title: 'react is rad'}
-  //
-  //   wrapper.setState({ ideas: initialState })
-  //
-  //   wrapper.instance().addIdea(invalidIdea)
-  //
-  //   expect(wrapper.state('ideas')).toEqual(initialState)
-  // })
-
   it('removeIdea removes an idea from state', () => {
     const initialState = [{title: 'hey', body: 'yall', id: 1}, {title: 'war', body: 'eagle', id: 2}]
     const expected = [{title: 'hey', body: 'yall', id: 1}]
 
     wrapper.setState({ ideas: initialState })
-
     wrapper.instance().removeIdea(2)
 
     expect(wrapper.state('ideas')).toEqual(expected)
@@ -61,10 +48,8 @@ describe('App', () => {
     const initialState = [{title: 'hey', body: 'yall', id: 1}, {title: 'war', body: 'eagle', id: 2}]
 
     wrapper.setState({ ideas: initialState })
-
     wrapper.instance().removeIdea()
 
     expect(wrapper.state('ideas')).toEqual(initialState)
   })
-
 })
