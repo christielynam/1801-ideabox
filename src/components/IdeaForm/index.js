@@ -15,14 +15,14 @@ class IdeaForm extends Component {
     this.setState({ [name]: value })
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     event.preventDefault()
     this.props.addIdea(this.state)
   }
 
   render() {
     return(
-      <form onSubmit={this.handleSubmit.bind(this)}>
+      <form onSubmit={this.handleSubmit}>
         <input
           type='text'
           className='title-input'
