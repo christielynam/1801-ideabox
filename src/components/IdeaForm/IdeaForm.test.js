@@ -55,8 +55,6 @@ describe('IdeaForm', () => {
   })
 
   it('should call addIdea onSubmit of the form', () => {
-    wrapper = mount(<IdeaForm addIdea={addIdeaMock} />)
-
     const mockEvent = { preventDefault: jest.fn() }
 
     wrapper.find('form').simulate('submit', mockEvent)
