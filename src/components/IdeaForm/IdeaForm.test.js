@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import IdeaForm from '../IdeaForm';
-import { shallow, mount, render } from 'enzyme';
+import { shallow, mount} from 'enzyme';
 
 describe('IdeaForm', () => {
+  let addIdeaMock;
   let wrapper;
 
   beforeEach(() => {
-    const addIdeaMock = jest.fn()
-
-    wrapper = mount(<IdeaForm addIdea={addIdeaMock} />)
+    addIdeaMock = jest.fn()
+    wrapper = shallow(<IdeaForm addIdea={addIdeaMock} />)
   })
 
   it('matches the sanpshot', () => {
@@ -43,6 +43,8 @@ describe('IdeaForm', () => {
   })
 
   it('should call handleSubmit onSubmit of the form', () => {
+    wrapper = mount(<IdeaForm addIdea={addIdeaMock} />)
+
     const spy = spyOn(wrapper.instance(), 'handleSubmit');
     const mockEvent = { preventDefault: jest.fn() }
 
@@ -53,14 +55,12 @@ describe('IdeaForm', () => {
   })
 
   it('should call addIdea onSubmit of the form', () => {
-    const spy = spyOn(wrapper.props(), 'addIdea');
+    wrapper = mount(<IdeaForm addIdea={addIdeaMock} />)
+
     const mockEvent = { preventDefault: jest.fn() }
-    // const addIdeaMock = jest.fn()
 
-    wrapper.instance().forceUpdate();
     wrapper.find('form').simulate('submit', mockEvent)
-    // wrapper.instance().handleSubmit(mockEvent)
 
-    expect(spy).toHaveBeenCalled()
+    expect(addIdeaMock).toHaveBeenCalled()
   })
 })
