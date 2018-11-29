@@ -6,7 +6,7 @@
     "prop-types": "^15.6.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
+    "react-scripts": "^2.1.1",
     "react-test-renderer": "^16.3.2"
   },
   "scripts": {
@@ -24,5 +24,11 @@
       "src/**/*.{js,jsx}",
       "!src/index.js"
     ]
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

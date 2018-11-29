@@ -5,8 +5,8 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <IdeaForm
-    addIdea={[Function]}
-/>,
+    addIdea={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -27,7 +27,7 @@ ShallowWrapper {
           placeholder="title"
           type="text"
           value=""
-/>,
+        />,
         <input
           className="body-input"
           name="body"
@@ -35,10 +35,10 @@ ShallowWrapper {
           placeholder="body"
           type="text"
           value=""
-/>,
+        />,
         <button>
           Submit
-</button>,
+        </button>,
       ],
       "onSubmit": [Function],
     },
@@ -104,7 +104,7 @@ ShallowWrapper {
             placeholder="title"
             type="text"
             value=""
-/>,
+          />,
           <input
             className="body-input"
             name="body"
@@ -112,10 +112,10 @@ ShallowWrapper {
             placeholder="body"
             type="text"
             value=""
-/>,
+          />,
           <button>
             Submit
-</button>,
+          </button>,
         ],
         "onSubmit": [Function],
       },

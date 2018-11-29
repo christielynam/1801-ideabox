@@ -6,21 +6,21 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <IdeaContainer
     ideas={
-        Array [
-            Object {
-              "body": "yall",
-              "id": 3,
-              "title": "hey",
-            },
-            Object {
-              "body": "eagle",
-              "id": 5,
-              "title": "war",
-            },
-          ]
+      Array [
+        Object {
+          "body": "yall",
+          "id": 3,
+          "title": "hey",
+        },
+        Object {
+          "body": "eagle",
+          "id": 5,
+          "title": "war",
+        },
+      ]
     }
-    removeIdea={[Function]}
-/>,
+    removeIdea={[MockFunction]}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -37,15 +37,15 @@ ShallowWrapper {
         <Card
           body="yall"
           id={3}
-          removeIdea={[Function]}
+          removeIdea={[MockFunction]}
           title="hey"
-/>,
+        />,
         <Card
           body="eagle"
           id={5}
-          removeIdea={[Function]}
+          removeIdea={[MockFunction]}
           title="war"
-/>,
+        />,
       ],
     },
     "ref": null,
@@ -57,7 +57,7 @@ ShallowWrapper {
         "props": Object {
           "body": "yall",
           "id": 3,
-          "removeIdea": [Function],
+          "removeIdea": [MockFunction],
           "title": "hey",
         },
         "ref": null,
@@ -71,7 +71,7 @@ ShallowWrapper {
         "props": Object {
           "body": "eagle",
           "id": 5,
-          "removeIdea": [Function],
+          "removeIdea": [MockFunction],
           "title": "war",
         },
         "ref": null,
@@ -91,15 +91,15 @@ ShallowWrapper {
           <Card
             body="yall"
             id={3}
-            removeIdea={[Function]}
+            removeIdea={[MockFunction]}
             title="hey"
-/>,
+          />,
           <Card
             body="eagle"
             id={5}
-            removeIdea={[Function]}
+            removeIdea={[MockFunction]}
             title="war"
-/>,
+          />,
         ],
       },
       "ref": null,
@@ -111,7 +111,7 @@ ShallowWrapper {
           "props": Object {
             "body": "yall",
             "id": 3,
-            "removeIdea": [Function],
+            "removeIdea": [MockFunction],
             "title": "hey",
           },
           "ref": null,
@@ -125,7 +125,7 @@ ShallowWrapper {
           "props": Object {
             "body": "eagle",
             "id": 5,
-            "removeIdea": [Function],
+            "removeIdea": [MockFunction],
             "title": "war",
           },
           "ref": null,

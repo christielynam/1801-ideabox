@@ -20,20 +20,20 @@ ShallowWrapper {
       "children": Array [
         <header
           className="App-header"
->
+        >
           <h1
-                    className="App-title"
+            className="App-title"
           >
-                    IdeaBox
+            IdeaBox
           </h1>
           <IdeaForm
-                    addIdea={[Function]}
+            addIdea={[Function]}
           />
-</header>,
+        </header>,
         <IdeaContainer
           ideas={Array []}
           removeIdea={[Function]}
-/>,
+        />,
       ],
       "className": "App",
     },
@@ -47,12 +47,12 @@ ShallowWrapper {
           "children": Array [
             <h1
               className="App-title"
->
+            >
               IdeaBox
-</h1>,
+            </h1>,
             <IdeaForm
               addIdea={[Function]}
-/>,
+            />,
           ],
           "className": "App-header",
         },
@@ -108,20 +108,20 @@ ShallowWrapper {
         "children": Array [
           <header
             className="App-header"
->
+          >
             <h1
-                        className="App-title"
+              className="App-title"
             >
-                        IdeaBox
+              IdeaBox
             </h1>
             <IdeaForm
-                        addIdea={[Function]}
+              addIdea={[Function]}
             />
-</header>,
+          </header>,
           <IdeaContainer
             ideas={Array []}
             removeIdea={[Function]}
-/>,
+          />,
         ],
         "className": "App",
       },
@@ -135,12 +135,12 @@ ShallowWrapper {
             "children": Array [
               <h1
                 className="App-title"
->
+              >
                 IdeaBox
-</h1>,
+              </h1>,
               <IdeaForm
                 addIdea={[Function]}
-/>,
+              />,
             ],
             "className": "App-header",
           },

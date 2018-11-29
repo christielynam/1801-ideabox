@@ -7,9 +7,9 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Card
     body="body"
     id={2}
-    removeIdea={[Function]}
+    removeIdea={[MockFunction]}
     title="title"
-/>,
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -25,15 +25,15 @@ ShallowWrapper {
       "children": Array [
         <h3>
           title
-</h3>,
+        </h3>,
         <p>
           body
-</p>,
+        </p>,
         <button
           onClick={[Function]}
->
+        >
           Delete
-</button>,
+        </button>,
       ],
     },
     "ref": null,
@@ -84,15 +84,15 @@ ShallowWrapper {
         "children": Array [
           <h3>
             title
-</h3>,
+          </h3>,
           <p>
             body
-</p>,
+          </p>,
           <button
             onClick={[Function]}
->
+          >
             Delete
-</button>,
+          </button>,
         ],
       },
       "ref": null,
